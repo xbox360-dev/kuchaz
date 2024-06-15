@@ -1,0 +1,44 @@
+.toggle
+
+{
+   display:none ;
+}
+
+.toggle+label>.on
+{
+    display:none;
+}
+.toggle:checked+label>.on
+{
+    display:block;
+}
+
+.toggle + label>.off
+{
+    display:block ;
+}
+
+.toggle:checked+label > .off
+{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
